@@ -96,14 +96,14 @@ public class Main {
         // Задача №2
         System.out.println("Задача №2");
 
-        int j = 1;
-        while (j <= 10) {
-            System.out.print(" " + j + " ");
+        int j = 0;
+        while (j < 10) {
             j = j + 1;
-        }
+            System.out.print(j + " ");
+                    }
         System.out.println();
         for (int k = 10; k >= 1; k--) {
-            System.out.print(" " + k + " ");
+            System.out.print(k + " ");
         }
         System.out.println();
 
